@@ -6,3 +6,4 @@ CREATE TABLE tipo_pagamento(
 
     PRIMARY KEY(codigo_pagamento)
 )
+ 
