@@ -20,4 +20,6 @@ CREATE TABLE viagens(
         placa_veiculo_viagem,
         data_hora_inicio
     )
-)
+);
+
+

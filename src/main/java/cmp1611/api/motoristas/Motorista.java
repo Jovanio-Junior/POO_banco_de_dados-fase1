@@ -22,12 +22,14 @@ public class Motorista {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Long cpf_motorista;
+    private String cnh;
     private int banco_mot;
     private int agencia_mot;
     private int conta_mot;
 
     public Motorista(motoristaCadastro dado) {
         this.cpf_motorista = dado.cpf_motorista();
+        this.cnh = dado.cnh();
         this.banco_mot = dado.banco_mot();
         this.agencia_mot = dado.agencia_mot();
         this.conta_mot = dado.conta_mot();
@@ -36,6 +38,7 @@ public class Motorista {
     public Motorista(Motorista motorista) {
         this.cpf_motorista = motorista.getCpf_motorista();
         this.banco_mot = motorista.getBanco_mot();
+        this.cnh = motorista.getCnh();
         this.agencia_mot = motorista.getAgencia_mot();
         this.conta_mot = motorista.getConta_mot();
     }
@@ -54,6 +57,7 @@ public class Motorista {
             this.cpf_motorista != null
         ) {
             this.cpf_motorista = dado.cpf_motorista();
+            this.cnh = dado.cnh();
             this.banco_mot = dado.banco_mot();
             this.agencia_mot = dado.agencia_mot();
             this.conta_mot = dado.conta_mot();
