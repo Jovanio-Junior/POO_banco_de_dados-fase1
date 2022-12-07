@@ -14,10 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import cmp1611.api.veiculo.VeiculoRepository;
 import cmp1611.api.veiculo.Veiculo;
-import cmp1611.api.viagem.Fase2Repository;
 import cmp1611.api.viagem.Viagem;
 import cmp1611.api.viagem.ViagemRepository;
-import cmp1611.api.viagem.viagemCadastro;
 import cmp1611.api.veiculo.veiculoCadastro;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;;;
@@ -25,7 +23,6 @@ import jakarta.validation.Valid;;;
 public class VeiculosController {
     @Autowired
     private VeiculoRepository repository;
-    private Fase2Repository vRepository;
     private ViagemRepository repository2;
 
     @RequestMapping(value = "/veiculos", method = RequestMethod.POST)
@@ -47,16 +44,18 @@ public class VeiculosController {
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
     @RequestMapping(value = "/veiculos/marca/{placa_veiculo_viagem}", method = RequestMethod.GET)
-    public List<Viagem> porMarca(@PathVariable("placa_veiculo_viagem") String placa_veiculo_viagem){
-        List<Veiculo> veiculos = repository.findByMarcaVeiculo(placa_veiculo_viagem);
+    public String porMarca(@PathVariable("placa_veiculo_viagem") String placa_veiculo_viagem){
+        // List<Veiculo> veiculos = repository.findByMarcaVeiculo(placa_veiculo_viagem);
+        // System.out.println(repository.findByMarcaVeiculo(placa_veiculo_viagem));
         List<Viagem> fase2 = new ArrayList<Viagem>();
-        for (Veiculo i : veiculos) {
-            System.out.println(i.getPlaca());
-            Long a = (long) 1234567;
-            // Viagem aux = ;
-            System.out.println(repository2.findBycpf_motoristaViagem(a));
-        }
-        return fase2;
+        // for (Veiculo i : veiculos) {
+        //     System.out.println(i.getPlaca());
+        //     Long a = (long) 1234567;
+        //     // Viagem aux = ;
+        //     System.out.println(repository2.findBycpf_motoristaViagem(a));
+        // }
+        // return fase2;
+        return "Ola";
     }
     @RequestMapping(value = "/delete/{placa}", method = RequestMethod.DELETE)
     @Transactional

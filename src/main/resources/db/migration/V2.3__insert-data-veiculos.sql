@@ -1,0 +1,69 @@
+-- Auto-generated SQL script #Veiculos																									
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('ubl-ish','fiat','uno',2012	,4	,'Verde', 'G',618);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('eve-rse','fiat','uno',2013	,4	,'Verde', 'G',345);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('alv-arC','fiat','uno',2014	,4	,'Verde', 'G',868);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('DFs-pri','fiat','uno',2015	,2	,'Verde', 'G',679);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('olv-ing','fiat','uno',2016	,5	,'Verde', 'G',826);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('Kas-sem','fiat','uno',2017	,4	,'Verde', 'G',542);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('her-eve','fiat','uno',2018	,2	,'Verde', 'G',798);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('sac-omb','fiat','uno',2019	,6	,'Verde', 'G',286);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('al9-arC','fiat','uno',2020	,6	,'Verde', 'G',521);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('TML-sci','fiat','uno',2021	,3	,'Verde', 'G',659);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('TML-Veh','fiat','uno',2022	,4	,'Verde', 'G',458);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('Kim-,JY','fiat','uno',2012	,6	,'Verde', 'G',413);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('eut-ili','fiat','uno',2013	,6	,'Verde', 'G',381);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('ith-erd','fiat','uno',2014	,6	,'Verde', 'G',590);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('alg-arC','fiat','uno',2015	,2	,'Verde', 'G',284);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('evd-rse','fiat','uno',2016	,5	,'Verde', 'G',435);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('MSo-lan','fiat','uno',2017	,4	,'Verde', 'G',314);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('RPm-ode','fiat','uno',2018	,3	,'Verde', 'G',606);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('ehi-cle','ww','prisma',2019	,3	,'Verde', 'G',333);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('alp-arC','ww','prisma',2020	,2	,'Verde', 'G',983);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('DFk-eee','ww','prisma',2021	,3	,'Verde', 'G',507);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('gen-eti','ww','prisma',2022	,5	,'Verde', 'G',782);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('Zhe-ng,','ww','prisma',2012	,5	,'Verde', 'G',496);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('lgo-rit','ww','prisma',2013	,2	,'Verde', 'G',965);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('heo-pti','ww','prisma',2014	,3	,'Verde', 'G',231);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('aln-arC','ww','prisma',2015	,6	,'Verde', 'G',309);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('DFh-eee','ww','prisma',2016	,2	,'Verde', 'G',289);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('nco-rpo','ww','prisma',2017	,3	,'Verde', 'G',387);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('TWi-dja','ww','prisma',2018	,6	,'Verde', 'G',644);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('yth-ead','ww','prisma',2019	,3	,'Verde', 'G',297);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('hat-int','ww','prisma',2020	,5	,'Verde', 'G',514);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('al4-arC','ww','prisma',2021	,2	,'Verde', 'G',619);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('oll-uti','ww','prisma',2022	,4	,'Verde', 'G',830);
+INSERT INTO veiculos (placa,marca,modelo,ano_fabricacao,capacidade_passageiros,cor,tipo_combustivel,potencia_motor)	
+    VALUES('Kim-,JG','ww','prisma',2012	,3	,'Verde', 'G',846);
